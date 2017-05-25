@@ -1,0 +1,95 @@
+#top-banner {
+  font-family: 'Quicksand', sans-serif;
+}
+#header {
+  background-color: #2189FE;
+  width: 300px;
+  margin-left: 6px;
+}
+h1 {
+  font-size: 40px;
+  font-color: red;
+  margin: 0;
+}
+#nav-bar{
+  margin-left: 6px;
+}
+.nav-menu {
+  font-size: 30px;
+  margin-right: 30px;
+  text-decoration: none;
+  color: #000000;
+}
+.nav-menu:hover {
+  font-size: 35px;
+  transition: 500ms;
+  text-decoration: underline;
+}
+/*===== image container ===== */
+#image-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+.image-box {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  float: left;
+  margin: 6px;
+}
+#aspen {
+  background-image: url('images/aspen.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#cancun {
+  background-image: url('images/cancun.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#halloween {
+  background-image: url('images/halloween.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#kansascity {
+  background-image: url('images/kansascity.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#panera {
+  background-image: url('images/panera.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}#pga {
+  background-image: url('images/pga.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+/* ===== comment hover effect ======*/
+.slidein {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  overflow: hidden;
+  background-color: #000000;
+  opacity: 0.3;
+  transition: 500ms ease;
+}
+.image-box:hover .slidein {
+  width: 100%;
+  left: 0;
+}
+.comment {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #000000;
+  text-size: 50px;
+}
+/*Ask about the comment text not showing at slide in*/
