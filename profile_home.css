@@ -16,10 +16,9 @@ h2 {
 }
 
 /* ===== ===== main menu ===== ===== */
-#main-section {
-  position: relative;
+#site-header {
+  position: absolute;
   text-align: left;
-  width: 600px;
   height: 50px;
 }
 .submenu {
