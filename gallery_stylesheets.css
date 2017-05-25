@@ -77,19 +77,23 @@ h1 {
   left: 100%;
   right: 0;
   overflow: hidden;
-  background-color: #000000;
-  opacity: 0.3;
+  background-color:rgba(0, 0, 0, 0.9);
+  /*opacity: 0;*/
   transition: 500ms ease;
 }
 .image-box:hover .slidein {
   width: 100%;
   left: 0;
+  /*opacity: 0.8;*/
 }
 .comment {
+  position: relative;
+  top: 180px;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   vertical-align: middle;
-  background-color: #000000;
-  text-size: 50px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
 }
 /*Ask about the comment text not showing at slide in*/
