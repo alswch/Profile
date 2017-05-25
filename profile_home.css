@@ -2,7 +2,7 @@ body {
   background-color: #E8E8E8;
 }
 /* ===== ===== header ===== ===== */
-.header {
+/*.header {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
@@ -13,21 +13,36 @@ h1 {
 h2 {
   color: #1E31EC;
   font-size: 35px;
-}
+}*/
 
 /* ===== ===== main menu ===== ===== */
-#site-header {
+#site-header-box {
   position: absolute;
   text-align: left;
+  width: 1040px;
   height: 50px;
 }
+#site-logo-box {
+  font-size: 35px;
+  width: 150px;
+  float: left;
+}
+#nav-menu-box {
+  position: relative;
+  right: -470px;
+  width: 420px;
+  float: left;
+}
 .submenu {
-  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 110px;
+  margin: 0 3% 0 1%;
   font-family: 'Quicksand', sans-serif;
   font-size: 30px;
   color: #000000;
   text-decoration: none;
-  margin: 20px;
+  float: left;
 }
 .submenu:hover {
   font-size: 35px;
@@ -41,7 +56,6 @@ h2 {
 .article-section {
   width: 1000px;
   height: 250px;
-  margin-left: 500px;
 }
 #image {
   float: left;
